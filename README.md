@@ -19,9 +19,14 @@ To run the project, simply clone this repository and run the FaceRecognition.py 
 Make sure you have a camera connected to your computer so that the program can capture images.
 
 Open the bash
+
 Copy code
+
 git clone https://github.com/username/Face_Recognition.git
+
 cd repository-name
+
 python FaceRecognition.py
+
 We hope that this project is helpful to you and your team in developing robots and facial recognition systems. 
 If you have any questions or suggestions, please do not hesitate to contact us.
