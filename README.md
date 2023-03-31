@@ -1,7 +1,7 @@
-#Face Recognition in Python
+# Face Recognition in Python
 This project is an implementation of facial recognition in Python for the PinguimBots robotics group. It uses the OpenCV library to capture camera images and perform real-time face recognition.
 
-#Installation
+## Installation
 To run this project, you need to have Python 3 installed on your system. In addition, you need to install the OpenCV library using the pip package manager. You can do this by running the following command in your terminal:
 
 Copy code
@@ -11,7 +11,7 @@ You also need to install the NumPy library, which is used for array operations i
 Copy code
 pip install numpy
 
-#Usage
+## Usage
 To run the project, simply clone this repository and run the FaceRecognition.py file. Make sure you have a camera connected to your computer so that the program can capture images.
 
 Open the bash
