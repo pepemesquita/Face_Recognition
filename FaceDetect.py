@@ -14,10 +14,11 @@ while True:
         minNeighbors=5,
         minSize=(20, 20)
     )
-    for (x,y,w,h) in faces:
+    for (x, y, w, h) in faces:
         cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
-        roi_gray = RGB[y:y+h, x:x+w]
+        roi_RGB = RGB[y:y+h, x:x+w]
         roi_color = img[y:y+h, x:x+w]
+
     cv2.imshow('Video', img)
     k = cv2.waitKey(30) & 0xff
     if k == 27: # press 'ESC' to quit
