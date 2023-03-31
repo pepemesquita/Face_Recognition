@@ -20,8 +20,6 @@ Make sure you have a camera connected to your computer so that the program can c
 
 Open the bash
 
-Copy code
-
 git clone https://github.com/username/Face_Recognition.git
 
 cd repository-name
