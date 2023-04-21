@@ -50,7 +50,7 @@ This archive provides the following three detectors:
 - full body detector
 
 These detectors have been successfully applied to pedestrian detection
-in still images. They can be directly passed as parameters to the
+in still input. They can be directly passed as parameters to the
 program HaarFaceDetect.
 NOTE: These detectors deal with frontal and backside views but not
 with side views (also see "Known limitations" below).
