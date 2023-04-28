@@ -12,8 +12,7 @@ while webcam.isOpened():
     if not validation:
         break
     img = frame
-    list_face = face_detect.process(
-        img)  # usa o reconhecedor para criar uma lista com os rostos reconhecidos
+    list_face = face_detect.process(img)  # usa o reconhecedor para criar uma lista com os rostos reconhecidos
 
     if list_face.detections:  # caso algum rosto tenha sido reconhecido
         for face in list_face.detections:  # para cada rosto que foi reconhecido
